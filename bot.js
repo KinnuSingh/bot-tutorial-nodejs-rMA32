@@ -74,7 +74,6 @@ function respond() {
     postMessage("http://daddyleagues.com/gridgreatness/team/"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
-  
   else if(request.text && botRegexOW.test(request.text)) {
     this.res.writeHead(200);
     postMessage("www.daddyleagues.com/maddenrating/");
