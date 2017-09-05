@@ -157,7 +157,7 @@ function respond() {
   }
   else if(request.text && botRegexTrade.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/forms/d/e/1FAIpQLSdrbe5iBRaBC7EWoodVm8z6285-dG2EdHXAOMOgz8md8T1jwQ/viewform");
+    postMessage("https://docs.google.com/forms/d/1dNWYYD72Ak0XgnkO0lFBgrtrPo6lB8IYHeuRV9Cz9RU/viewform");
     this.res.end();
   }
   
